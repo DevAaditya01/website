@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+}
+.nav {
+    background-color: rgb(217, 209, 209);
+    height: 80px;
+    width: 100%;
+    border: solid 1.5px black;
+  position: fixed ;  
+z-index: 2;
+}
+#about {  height: 720px;
+    width: 100%;
+    background-color: wheat;
+    padding-top: 85px;
+    color: black;
+    font-size: larger;
+   padding-left: 0px;
+   text-align: left;
+}
+#gall{
+    height: 720px;
+    width: 100%;
+    background-color: whitesmoke ;
+    padding-top: 85px;
+    color: rgb(7, 7, 7);
+}
+#gall h1 {
+    margin-top: 50px;
+    margin-left: 600px;
+}
+#tp {
+    margin-top: 50px;
+    margin-left: 540px;
+    height: 50px;
+    position: absolute;
+}
+#edu1 {
+    margin-top: 40px;
+    margin-left: 200px;
+    height: 230px;
+    width: 990px;
+    background-color: rgb(141, 74, 74);
+    border: solid 1px maroon;
+    color: white;
+}
+#edu1:hover {
+    /* border: solid 1.5px rgb(164, 88, 88); */
+    box-shadow: 7px 7px 5px rgb(119, 122, 123);
+    /* border-radius: 5% 5%; */
+}
+
+#edu1 p {
+    font-size: xx-large;
+    margin-left: 400px;
+    padding-top: 70px;
+
+}
+#edu1 img {
+    /* margin-top: 5px; */
+    /* margin-bottom: 7px; */
+    /* margin-left: 7px; */
+    height: 230px;
+    position: absolute;
+    /* border-radius: 5%; */
+    margin-bottom: 150px;
+
+}
+#edu2{
+    margin-top: 40px;
+    margin-left: 200px;
+    height: 230px;
+    width: 990px;
+    background-color: rgb(141, 74, 74);
+    border: solid 1px maroon;
+    color: white;
+}
+#edu2:hover {
+    box-shadow: 7px 7px 5px rgb(119, 122, 123);
+}
+#edu2 img {
+    height: 230px;
+    width: 290px;
+    position: absolute;
+    margin-bottom: 152px;
+}
+#edu2 p {
+    font-size: xx-large;
+    margin-left: 400px;
+    padding-top: 70px;
+}
+#skill {
+    height: 720px;
+    width: 100%;
+    background-color: rgb(106, 51, 51);
+    padding-top: 85px;
+    color: white;
+}
+
+#home {
+    height: 800px;
+    width: 100vw;
+    background-color: rgb(106, 51, 51);
+    /* padding-top: 85px; */
+    color: white;
+}
+.home p {
+   margin-left: 100px;
+padding-top: 250px;
+    font-size: 50px;
+  
+}
+
+ span {
+    color: goldenrod;
+    
+}
+nav h1,h3 {
+    margin-top: 150px;
+   display: inline-block;
+   margin-top: 20px;
+
+}
+ #B {
+    padding-left: 25px;
+}
+#c {
+    padding-left: 25px;
+}
+#d {
+    padding-left: 25px;
+}
+#a {
+    padding-left: 900px;
+}
+a {
+    text-decoration: none;
+}
+#A a {
+    color: goldenrod;
+    padding-left:  40px;
+}
+#A a:hover {
+color: maroon;
+}
+h3 a {
+    color: maroon;
+}
+h3 a:hover{
+color: goldenrod;
+border-bottom: 2px solid goldenrod;
+}
+#z {
+    margin-left: 100px;
+  margin-top: 400px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    object-fit: cover;
+    position: absolute;
+}
+#z:hover {
+    border: dotted 2px goldenrod;
+}
+#img {
+    height: 350px;
+    width: 350px;
+ border-radius: 50%; 
+    object-fit: cover;
+   margin-left: 950px; 
+     margin-top: 200px;
+/* padding-left: 120px; */
+  position: absolute;
+  border: solid 2px goldenrod;
+}
+#img:hover {
+   border-radius: 50%;
+   border: dotted 4px goldenrod;
+   box-shadow: 3px goldenrod;
+}
+#ig {
+    margin-left: 165px;
+    margin-top: 400px;
+      height: 55px;
+      width: 55px;
+      border-radius: 50%; 
+      object-fit: cover;
+      position: absolute;
+}
+#ig:hover {
+    border: dotted 2px goldenrod;
+}
+#gb {
+    margin-left: 230px;
+    margin-top: 400px;
+      height: 55px;
+      width: 55px;
+      border-radius: 50%; 
+      object-fit: cover;
+      position: absolute;
+}
+#gb:hover {
+    border: dotted 2px goldenrod;
+}
+#btn {
+    height: 40px;
+    width: 80px;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: goldenrod;
+    color: white;
+}
+#btn:hover {
+    transition: margin-right 2s;
+    background-color: #e9e2c7;
+    color: black;
+}
+#btn a:hover {
+    color: black;
+}
+#btn a {
+    color: black;
+}
+#pf {
+    height: 500px;
+    width: 350px;
+    object-fit: cover ;
+    border-radius: 5%;
+margin-left: 990px;
+ position: absolute; 
+margin-top: 30px;
+   
+}
+#tx {
+    width: 800px; 
+    margin-left: 100px;
+    text-align: left;
+    font-size: larger;
+    display: inline-block;
+    font-family: fantasy;
+}
+span1 {
+    font-family: serif;
+    color: darkblue;
+}
+H2 {
+    color: maroon;
+}
+label {
+   padding-left: 600px;
+    color: maroon;
+    font-size: x-large
+}
+input {
+    margin-left: 610px;
+    size: 80px;
+    background-color: #e9e2c7;
+    border-color: black;
+}
+#fm {
+
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 500px;
+    width: 950px;
+    background-color: beige;
+    border: solid 2px wheat;
+padding-left: 80px;
+padding-top: 100px;
+}
+#fm img {
+
+    border-radius: 50%;
+    margin-top: 80px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+}
+#fm:hover {
+    border: solid 1.5px wheat;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+
+}
+ #btn3 {
+    background-color: #e9e2c7;
+    margin-left: 610px;
+    width: 80px;
+ }
+ #btn3:hover {
+    background-color: maroon;
+    color: aliceblue;
+ }
+ #skill h2 {
+    margin-top: 20px;
+    color: white;
+    font-size: xx-large;
+    margin-left: 650px;
+    font-family: fantasy;
+ }
+ @media (min-width: 768px) and (max-width: 1024px) {
+    #a {
+        padding-left: 300px;
+    }
+    #img {
+        height: 200px;
+        width: 200px;
+       margin-left: 320px; 
+         margin-top: 400px;
+    }
+    #tx {
+        width: 400px; 
+        margin-left: 40px;
+    }
+    #pf {
+        height: 500px;
+        width: 300px;     
+    margin-left: 500px;
+    margin-top: 60px;   
+    }
+    #gall h1 {
+        margin-top: 50px;
+        margin-left: 420px;
+    }
+    #tp {
+        margin-top: 50px;
+        margin-left: 350px;
+        height: 50px;
+    }
+    #edu1 {
+        margin-top: 40px;
+        margin-left: 20px;
+        height: 230px;
+        width: 780px;
+    }
+    #edu1 p {
+        margin-left: 320px;
+        padding-top: 70px;
+    }
+    
+    #edu2{
+        margin-top: 40px;
+        margin-left: 20px;
+        height: 230px;
+        width: 780px;
+    }
+    #edu2 p {
+        
+        margin-left: 320px;
+        padding-top: 70px;
+    }
+    #skill h2 {
+        margin-top: 15px; 
+        margin-left: 350px;
+     }
+     #fm {
+        margin-top: 15px;
+        margin-left: 23px;
+        width: 690px;
+    padding-left: 80px;
+    padding-top: 100px;
+    }
+    label {
+        padding-left: 400px;  
+         font-size: x-large
+     }
+     input {
+         margin-left: 400px;
+         size: 80px;
+     }
+     #btn3 {
+        margin-left: 450px;
+        width: 80px;
+     }
+ }
+ @media (max-width: 767px) {
+    #home {
+        width: 896px;
+         }
+#about {
+    width: 896px;
+}
+    #a {
+        padding-left: 280px; 
+    }
+    
+    #img {
+        height: 300px;
+        width: 300px;
+       margin-left: 320px; 
+         margin-top: 420px;
+    }
+    #tx {
+        font-size: large;
+        width: 400px; 
+        margin-left: 40px;
+    }
+    #pf {
+        height: 520px;
+        width: 300px;     
+    margin-left: 470px;
+    margin-top: 70px;   
+    }
+    #gall {
+        width: 896px;
+    }
+    #gall h1 {
+        margin-top: 50px;
+        margin-left: 350px;
+    }
+    #tp {
+        margin-top: 50px;
+        margin-left: 290px;
+        height: 50px;
+    }
+    #edu1 {
+        margin-top: 40px;
+        margin-left: 20px;
+        height: 230px;
+        width: 765px;
+    }
+    
+    #edu2{
+        margin-top: 40px;
+        margin-left: 20px;
+        height: 230px;
+        width: 765px;
+    }
+    #skill {
+        width: 896px;
+    }
+    #skill h2 {
+        margin-top: 15px; 
+        margin-left: 350px;
+     }
+     #fm {
+        margin-right: 18px;
+        margin-top: 15px;
+        margin-left: 9px;
+        width: 700px;
+    padding-left: 80px;
+    padding-top: 100px;
+    }
+    label {
+        padding-left: 400px;  
+         font-size: x-large
+     }
+     input {
+         margin-left: 400px;
+         size: 80px;
+     }
+     #btn3 {
+        margin-left: 450px;
+        width: 80px;
+     }
+  }
+ 
+  @media (min-width: 1025px) {
+     
+  }
